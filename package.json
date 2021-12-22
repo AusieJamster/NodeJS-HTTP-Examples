@@ -1,0 +1,17 @@
+{
+  "name": "http-with-nodejs",
+  "version": "1.0.0",
+  "description": "example of http request management with nodejs",
+  "main": "request.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node request.js"
+  },
+  "author": "Jamie Brearley",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body": "^5.1.0",
+    "formidable": "^2.0.1"
+  }
+}
